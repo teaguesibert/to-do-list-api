@@ -1,0 +1,35 @@
+body{
+  margin-top:20px;
+  background: #f8f8f8;
+}
+
+.todo-nav {
+  margin-top: 10px
+}
+
+.todo-list {
+  margin: 10px 0
+}
+
+.todo-list .todo-item {
+  padding: 15px;
+  margin: 5px 0;
+  border-radius: 0;
+  background: #f7f7f7
+}
+.todo-item{
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #dbdee3;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.card {
+  padding: 25px;
+  margin-bottom: 20px;
+  border: initial;
+  background: #fff;
+  border-radius: calc(.15rem - 1px);
+  box-shadow: 0 1px 15px rgba(0,0,0,0.04), 0 1px 6px rgba(0,0,0,0.04);
+}
